@@ -18,6 +18,7 @@ public class Main {
         float debito = scan.nextFloat();
         cuenta1.addDebito(debito);
         System.out.println(cuenta1.getCuenta());
+        System.out.println(cuenta1.getCuenta());
 
     }
 }
