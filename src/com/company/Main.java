@@ -14,7 +14,7 @@ public class Main {
         float credito = scan.nextFloat();
         cuenta1.addCredito(credito);
         System.out.println(cuenta1.getCuenta());
-        System.out.println("Ingrese dedito: ");
+        System.out.println("Ingrese debito: ");
         float debito = scan.nextFloat();
         cuenta1.addDebito(debito);
         System.out.println(cuenta1.getCuenta());
